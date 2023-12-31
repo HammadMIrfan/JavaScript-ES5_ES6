@@ -1,0 +1,49 @@
+avaScript is a popular programming language that has a wide range of applications.
+
+JavaScript was previously used mainly for making webpages interactive such as form validation, animation, etc. Nowadays, JavaScript is also used in many other areas such as server-side development, mobile app development and so on.
+
+Because of its wide range of applications, you can run JavaScript in several ways:
+
+Using console tab of web browsers
+Using Node.js
+By creating web pages
+
+==============================================================================================
+
+Using Console Tab of Web Browsers
+All the popular web browsers have built-in JavaScript engines. Hence, you can run JavaScript on a browser. To run JavaScript on a browser,
+
+Open your favorite browser (here we will use Google Chrome).
+Open the developer tools by right clicking on an empty area and select Inspect. Shortcut: F12.
+
+===========================================================================================================
+
+Node is a back-end run-time environment for executing JavaScript code. To run JS using Node.js, follow these steps:
+
+Install the latest version of Node.js.
+Install an IDE/Text Editor like Visual Studio Code. In VS code, create a file > write JS code > save it with .js extension.
+
+=====================================================================================================================
+
+By Creating Web Pages
+JavaScript was initially created to make web pages interactive, that's why JavaScript and HTML go hand in hand. To run JS from a webpage, follow these steps:
+
+Open VS Code > Go to File > New File > Save it with .html extension. For example, main.html.
+Copy this doctype (minimum valid HTML code) and save it in the file.
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Programiz</title>
+</head>
+
+<body>
+  <script src=""></script>
+</body>
+</html>
+
+
+Similarly create a JS file, write the following JS code and save it with .js extension like main.js.
+console.log('hello world');
