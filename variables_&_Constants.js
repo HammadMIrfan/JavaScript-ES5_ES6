@@ -71,7 +71,7 @@ let Y = 5;
 
 console.log(y); // hi
 console.log(Y); // 5
-// Run Code
+
 // Keywords cannot be used as variable names. For example,
 //invalid
 let new = 5; // Error! new is a keyword.
